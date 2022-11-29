@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.41300c35.css",
-    "main.js": "/static/js/main.16592c31.js",
+    "main.js": "/static/js/main.62c11cd7.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/deakinUniversity.png": "/static/media/deakinUniversity.8248dda3c06f251b476f.png",
     "static/media/deakinCollege.png": "/static/media/deakinCollege.56f776f988acb9033df6.png",
     "index.html": "/index.html",
     "main.41300c35.css.map": "/static/css/main.41300c35.css.map",
-    "main.16592c31.js.map": "/static/js/main.16592c31.js.map",
+    "main.62c11cd7.js.map": "/static/js/main.62c11cd7.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41300c35.css",
-    "static/js/main.16592c31.js"
+    "static/js/main.62c11cd7.js"
   ]
 }
