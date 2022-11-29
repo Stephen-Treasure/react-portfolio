@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/stephentreasure.github.io/static/css/main.41300c35.css",
-    "main.js": "/stephentreasure.github.io/static/js/main.135e37b9.js",
-    "static/js/787.a2cb61a6.chunk.js": "/stephentreasure.github.io/static/js/787.a2cb61a6.chunk.js",
-    "static/media/deakinUniversity.png": "/stephentreasure.github.io/static/media/deakinUniversity.8248dda3c06f251b476f.png",
-    "static/media/deakinCollege.png": "/stephentreasure.github.io/static/media/deakinCollege.56f776f988acb9033df6.png",
-    "index.html": "/stephentreasure.github.io/index.html",
-    "main.41300c35.css.map": "/stephentreasure.github.io/static/css/main.41300c35.css.map",
-    "main.135e37b9.js.map": "/stephentreasure.github.io/static/js/main.135e37b9.js.map",
-    "787.a2cb61a6.chunk.js.map": "/stephentreasure.github.io/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/static/css/main.41300c35.css",
+    "main.js": "/static/js/main.b5746ab2.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/deakinUniversity.png": "/static/media/deakinUniversity.8248dda3c06f251b476f.png",
+    "static/media/deakinCollege.png": "/static/media/deakinCollege.56f776f988acb9033df6.png",
+    "index.html": "/index.html",
+    "main.41300c35.css.map": "/static/css/main.41300c35.css.map",
+    "main.b5746ab2.js.map": "/static/js/main.b5746ab2.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41300c35.css",
-    "static/js/main.135e37b9.js"
+    "static/js/main.b5746ab2.js"
   ]
 }
