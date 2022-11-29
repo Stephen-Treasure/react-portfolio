@@ -1,0 +1,202 @@
+$light-background-colour: #202438;
+$text-colour: #ffffffca;
+$text-colour-hover: #ffffff;
+
+.Nav {
+    // position: fixed;
+    right: 0;
+    // display: flex;
+    list-style-type: none;
+}
+
+.NavText {
+    text-decoration: none;
+    font-size: 150%;
+    color: $text-colour;
+    margin: 10px;
+}
+
+.NavText:hover {
+    color: $text-colour-hover;
+}
+
+.active {
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    // transition: 0.3s linear;
+    display: flex;
+    justify-content: flex-end;
+    background-color: $light-background-colour;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    // z-index: 40;
+    // box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.08);
+    list-style-type: none;
+}
+.hidden {
+    height: 3rem;
+    width: 100%;
+    z-index: 40;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.08);
+    position: fixed;
+    top: -80px;
+    transition: 0.3s linear;
+}
+
+button {
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.mobileIcons {
+    display: none;
+}
+
+// @media (max-width: 768px) {
+//     .active {
+//         display: none;
+//     }
+
+//     .mobileIcons {
+//         position: fixed;
+//         display: block;
+//         list-style: none;
+//         right: 50px;
+//         // left: 0px;
+//         top: 10%;
+//         transition: all 0.5s ease-in-out;
+//         width: 5%;
+//         color: #ffffff;
+//         // font-size: 50px;
+//         background-color: $light-background-colour;
+//     }
+//     button {
+//         background-color: #ffffff;
+//     }
+// }
+
+.NavBar {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $light-background-colour;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.Logo {
+    color: $text-colour;
+}
+
+.NavBar .Items a {
+    color: $text-colour;
+    font-size: 150%;
+    text-decoration: none;
+    margin: 15px;
+    position: relative;
+    opacity: 0.9;
+}
+.NavBar .Items a:hover {
+    opacity: 1;
+    color: $text-colour-hover;
+}
+
+.NavBar .Items a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: $text-colour-hover;
+    transform: all 0.45s;
+}
+
+.NavBar .Items a:hover::before {
+    width: 100%;
+}
+
+// .Items a:hover {
+//     color: $text-colour-hover;
+// }
+
+.NavBar .NavToggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .NavBar .Items {
+        position: absolute;
+        top: 60px;
+        display: flex;
+        flex-direction: column;
+        background: $light-background-colour;
+        left: 0px;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(-100%);
+        transition: all 0.45s;
+    }
+
+    .NavBar .Items a::before {
+        background: transparent;
+    }
+
+    .NavBar .ItemsOpen {
+        transform: translateX(0);
+    }
+
+    .NavBar .NavToggle {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .NavToggle .Bar {
+        position: relative;
+        width: 32px;
+        height: 2px;
+        background: $text-colour;
+    }
+
+    .NavToggle .Bar::before,
+    .NavToggle .Bar::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        background-color: $text-colour;
+        border-radius: 2px;
+        transition: all 0.45s ease-in-out;
+    }
+
+    .NavToggle .Bar::before {
+        width: 32px;
+        transform: translateY(-8px);
+        right: 0;
+    }
+    .NavToggle .Bar::after {
+        width: 32px;
+        transform: translateY(8px);
+    }
+
+    .NavBarOpen .Bar {
+        transform: translateX(-40px);
+        background: transparent;
+    }
+
+    .NavBarOpen .Bar::before {
+        width: 32px;
+        transform: rotate(45deg) translate(26px, -26px);
+    }
+    .NavBarOpen .Bar::after {
+        transform: rotate(-45deg) translate(26px, 26px);
+    }
+}

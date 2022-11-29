@@ -1,0 +1,66 @@
+$light-background-colour: #202438;
+$text-colour: #ffffffca;
+$text-colour-hover: #ffffff;
+
+.AContainer {
+    text-decoration: none;
+    color: $text-colour;
+}
+
+.DivCard {
+    width: 250px;
+    height: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    // overflow-y: hidden;
+    background-color: $light-background-colour;
+    // position: relative;
+}
+.DivCard:hover {
+    transform: scale(1.05);
+}
+
+.Container {
+    // place-items: center;
+    // overflow-y: hidden;
+    flex-wrap: wrap;
+    // background-color: rgb(238, 238, 238);
+    margin: 40px;
+    padding: 20px;
+    // flex-basis: 30%;
+    text-align: center;
+    // position: relative;
+    display: flex;
+    justify-content: center;
+
+    // grid-template-columns: repeat(3, 1fr);
+}
+
+.Para {
+    display: flex;
+    justify-content: space-between;
+    color: $text-colour;
+    margin: 10px;
+}
+.Para a {
+    color: $text-colour;
+}
+.Para a:hover {
+    color: $text-colour-hover;
+}
+
+.Skills {
+    text-align: center;
+}
+
+// .SkillsCenter {
+//     text-align: center;
+//     margin: 5px;
+//     padding: 5px;
+// }
+
+.AboutLink {
+    height: 200px;
+}

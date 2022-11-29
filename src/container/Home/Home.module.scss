@@ -1,0 +1,289 @@
+$dark-background-colour: rgb(21, 23, 34);
+$dark-background-colour-2: rgba(21, 23, 34, 0.961);
+$light-background-colour: #202438;
+$text-colour: #ffffffca;
+$text-colour-hover: #ffffff;
+
+.TitleOne {
+    background-color: $dark-background-colour-2;
+    color: $text-colour;
+    text-align: center;
+    margin-bottom: 40px;
+    // background-size: 100%;
+}
+.TitleTwo {
+    background-color: $dark-background-colour-2;
+    color: $text-colour;
+    text-align: center;
+}
+
+.Intro {
+    background-color: $dark-background-colour;
+    // background-size: 100%;
+    height: 100vh;
+    color: $text-colour;
+    text-align: center;
+    font-size: 250%;
+    flex-wrap: wrap;
+}
+.About {
+    background-color: $dark-background-colour;
+    // background-size: 100%;
+    height: 100vh;
+    color: $text-colour;
+}
+.Contact {
+    background-color: $dark-background-colour;
+    // background-size: 100%;
+    height: 100vh;
+    color: $text-colour;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Project {
+    background-color: $dark-background-colour;
+    // background-size: 100%;
+    height: 100vh;
+    color: $text-colour;
+    overflow-y: auto;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
+    // flex-wrap: wrap;
+    // flex: 1 0 21%;
+    // white-space: normal;
+}
+
+.CenterText {
+    text-align: center;
+    font-size: 300%;
+}
+
+// .Images {
+//     height: 400px;
+//     width: 450px;
+//     border-radius: 10px;
+//     border: 1px solid grey;
+//     margin: 2px;
+//     padding: 2px;
+// }
+
+// .CenterContainer {
+//     display: flex;
+//     justify-content: center;
+//     flex-direction: column;
+//     align-items: center;
+//     min-height: 100vh;
+//     background-color: $dark-background-colour;
+// }
+
+.UlList {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    list-style-type: none;
+    width: 50%;
+}
+
+.UlList li a {
+    position: relative;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: $text-colour;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.5);
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+}
+
+.UlList li a:hover {
+    color: $text-colour-hover;
+    background-color: $light-background-colour;
+}
+.UlList li a i {
+    font-size: 125%;
+}
+
+.UlList2 {
+    position: fixed;
+    writing-mode: vertical-rl;
+    bottom: 2rem;
+    right: 2rem;
+    text-decoration: none;
+}
+.UlList2 li {
+    list-style-type: none;
+}
+
+.UlList3 {
+    display: none;
+}
+
+.duh {
+    color: $text-colour;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.duh:hover {
+    color: $text-colour-hover;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.UpRight {
+    writing-mode: vertical-rl;
+}
+
+.Main {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1200px;
+    // min-height: 100vh;
+    // padding: 200px 150px;
+    // background-size: 100%;
+    background-color: $dark-background-colour;
+}
+
+.AboutPara {
+    margin: 10px 120px 0px 120px;
+    font-size: larger;
+    text-align: center;
+}
+
+.SkillsPara {
+    font-size: larger;
+    text-align: center;
+}
+
+.MainBackground {
+    background-color: $dark-background-colour;
+    // background-size: 100%;
+}
+
+.Link {
+    height: 100px;
+    padding-top: 100px;
+}
+
+.ImageC {
+    width: 100px;
+    height: 50px;
+}
+
+.ImageU {
+    width: 60px;
+    height: 60px;
+}
+
+.Year {
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    white-space: normal;
+}
+
+.Test {
+    text-align: right;
+    padding-right: 10px;
+    // white-space: normal;
+}
+.ContactTitle {
+    // display: none;
+    color: $text-colour;
+    text-align: center;
+    // margin-bottom: 40px;
+    background-color: $dark-background-colour-2;
+}
+
+.Email {
+    color: $text-colour;
+    border: 1px solid $text-colour;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.ContactPara {
+    // text-align: center;
+    font-size: 150%;
+    padding-bottom: 500px;
+    // padding-top: 20px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.Email:hover {
+    cursor: pointer;
+    background-color: $light-background-colour;
+    color: $text-colour-hover;
+    border-color: $text-colour-hover;
+}
+
+@media (max-width: 768px) {
+    .UlList {
+        position: relative;
+        display: flex;
+        bottom: 0px;
+        justify-content: center;
+        padding: 0px 50px 0px 60px;
+    }
+
+    .ContactTitle {
+        display: contents;
+        color: $text-colour;
+        display: flex;
+        justify-content: center;
+    }
+
+    .SkillList {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+    }
+
+    .SkillList * {
+        flex: 1 1 160px;
+    }
+
+    .Contact {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .ContactPara {
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    .UlList2 {
+        display: none;
+    }
+    .UlList3 {
+        position: relative;
+        display: flex;
+        bottom: 0px;
+
+        writing-mode: horizontal-tb;
+        justify-content: center;
+        list-style-type: none;
+    }
+}
+
+.SkillList {
+    column-count: 2;
+    list-style-type: none;
+}
+
+.SkillList li {
+    padding: 5px;
+}
