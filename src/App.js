@@ -22,7 +22,7 @@ function App() {
         //         </Routes>
         //     </BrowserRouter>
         // )
-        <BrowserRouter basename="/">
+        <BrowserRouter basename="/home">
             {" "}
             <Routes>
                 <Route path="/" element={<About />} />
