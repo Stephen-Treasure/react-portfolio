@@ -80,7 +80,7 @@ const Nav = () => {
                     </li>
                 </ul>
             </nav> */}
-            <span className={styles.Logo}>Logo</span>
+            <span className={styles.Logo}>Stephen Treasure</span>
             <div className={`${styles.Items} ${isOpen && styles.ItemsOpen}`}>
                 <a onClick={() => setIsOpen(!isOpen)} href="#About">
                     About
