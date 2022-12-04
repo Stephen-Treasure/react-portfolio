@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ProjectList.module.scss";
-// import Calculator from "../../projects/Calculator/Calculator";
+import Calculator from "src/projects/Calculator/index.html";
 // import { NavLink } from "react-router-dom";
 
 const projects = [
@@ -76,12 +76,9 @@ const ProjectList = () => {
                     <p>{project.description}</p>
 
                     <div className={styles.Skills}>
-                        <a
-                            href="src/projects/Calculator/index.html"
-                            className={styles.SkillsCenter}
-                        >
+                        {/* <a href={Calculator} className={styles.SkillsCenter}>
                             Link
-                        </a>
+                        </a> */}
                         <h6 className={styles.SkillsCenter}>
                             {project.skills.join(" ")}
                         </h6>
