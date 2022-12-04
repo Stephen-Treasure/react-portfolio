@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ProjectList.module.scss";
-import Calculator from "src/projects/Calculator/index.html";
+// import Calculator from "src/projects/Calculator/index.html";
 // import { NavLink } from "react-router-dom";
 
 const projects = [
