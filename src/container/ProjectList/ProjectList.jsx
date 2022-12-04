@@ -77,7 +77,7 @@ const ProjectList = () => {
 
                     <div className={styles.Skills}>
                         <a
-                            href="../../calc/index.html"
+                            href="src/projects/Calculator/index.html"
                             className={styles.SkillsCenter}
                         >
                             Link
