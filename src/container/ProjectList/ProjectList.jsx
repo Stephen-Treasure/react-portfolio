@@ -9,7 +9,7 @@ const projects = [
         image: "blank",
         name: "Javascript Calculator",
         description: "javascript calculator that can do basic calculations",
-        github: "https://github.com/Stephen-Treasure/calc2",
+        github: "https://github.com/Stephen-Treasure/Javascript-Calculator",
         link: "src/projects/Calculator/index.html",
         skills: ["Javascript", "HTML", "CSS"],
     },

@@ -2,9 +2,6 @@ import React from "react";
 import Nav from "../../component/Nav/Nav";
 import styles from "./Home.module.scss";
 import ProjectList from "../ProjectList/ProjectList";
-import deakinCollege from "./img/deakinCollege.png";
-import deakinCollege2 from "./img/deakinCollege2.png";
-import deakinUniversity from "./img/deakinUniversity.png";
 
 const sendEmail = () => {
     window.location = "mailto: stephentreasure8@gmail.com ";
@@ -134,7 +131,7 @@ const About = () => {
                 <ul className={styles.UlList2}>
                     <li>
                         <a
-                            className={styles.duh}
+                            className={styles.sideEmail}
                             href="mailto: stephentreasure8@gmail.com "
                         >
                             stephentreasure8@gmail.com ⎯⎯⎯⎯⎯⎯
@@ -144,7 +141,7 @@ const About = () => {
                 <ul className={styles.UlList3}>
                     <li>
                         <a
-                            className={styles.duh}
+                            className={styles.sideEmail}
                             href="mailto: stephentreasure8@gmail.com "
                         >
                             stephentreasure8@gmail.com

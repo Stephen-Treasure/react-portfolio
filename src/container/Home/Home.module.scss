@@ -9,7 +9,6 @@ $text-colour-hover: #ffffff;
     color: $text-colour;
     text-align: center;
     margin-bottom: 40px;
-    // background-size: 100%;
 }
 .TitleTwo {
     background-color: $dark-background-colour-2;
@@ -19,7 +18,6 @@ $text-colour-hover: #ffffff;
 
 .Intro {
     background-color: $dark-background-colour;
-    // background-size: 100%;
     height: 100vh;
     color: $text-colour;
     text-align: center;
@@ -28,13 +26,11 @@ $text-colour-hover: #ffffff;
 }
 .About {
     background-color: $dark-background-colour;
-    // background-size: 100%;
     height: 100vh;
     color: $text-colour;
 }
 .Contact {
     background-color: $dark-background-colour;
-    // background-size: 100%;
     height: 100vh;
     color: $text-colour;
     display: flex;
@@ -43,41 +39,15 @@ $text-colour-hover: #ffffff;
 }
 .Project {
     background-color: $dark-background-colour;
-    // background-size: 100%;
     height: 100vh;
     color: $text-colour;
     overflow-y: auto;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // flex-direction: column;
-    // flex-wrap: wrap;
-    // flex: 1 0 21%;
-    // white-space: normal;
 }
 
 .CenterText {
     text-align: center;
     font-size: 300%;
 }
-
-// .Images {
-//     height: 400px;
-//     width: 450px;
-//     border-radius: 10px;
-//     border: 1px solid grey;
-//     margin: 2px;
-//     padding: 2px;
-// }
-
-// .CenterContainer {
-//     display: flex;
-//     justify-content: center;
-//     flex-direction: column;
-//     align-items: center;
-//     min-height: 100vh;
-//     background-color: $dark-background-colour;
-// }
 
 .UlList {
     position: fixed;
@@ -127,13 +97,13 @@ $text-colour-hover: #ffffff;
     display: none;
 }
 
-.duh {
+.sideEmail {
     color: $text-colour;
     text-decoration: none;
     list-style-type: none;
 }
 
-.duh:hover {
+.sideEmail:hover {
     color: $text-colour-hover;
     text-decoration: none;
     list-style-type: none;
@@ -147,9 +117,6 @@ $text-colour-hover: #ffffff;
     margin: 0px auto;
     width: 100%;
     max-width: 1200px;
-    // min-height: 100vh;
-    // padding: 200px 150px;
-    // background-size: 100%;
     background-color: $dark-background-colour;
 }
 
@@ -166,7 +133,6 @@ $text-colour-hover: #ffffff;
 
 .MainBackground {
     background-color: $dark-background-colour;
-    // background-size: 100%;
 }
 
 .Link {
@@ -186,7 +152,7 @@ $text-colour-hover: #ffffff;
 
 .Year {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     text-align: right;
     white-space: normal;
 }
@@ -197,10 +163,8 @@ $text-colour-hover: #ffffff;
     // white-space: normal;
 }
 .ContactTitle {
-    // display: none;
     color: $text-colour;
     text-align: center;
-    // margin-bottom: 40px;
     background-color: $dark-background-colour-2;
 }
 
@@ -213,13 +177,8 @@ $text-colour-hover: #ffffff;
 }
 
 .ContactPara {
-    // text-align: center;
     font-size: 150%;
     padding-bottom: 500px;
-    // padding-top: 20px;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
 }
 
 .Email:hover {
@@ -258,7 +217,7 @@ $text-colour-hover: #ffffff;
     .Contact {
         display: flex;
         justify-content: center;
-        align-items: start;
+        align-items: flex-start;
     }
 
     .ContactPara {
